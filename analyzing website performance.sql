@@ -1,4 +1,3 @@
-USE mavenfuzzyfactory;
 -- 1)Most viewed website page
 SELECT pageview_url, COUNT(DISTINCT website_pageview_id) AS sessions from website_pageviews
 WHERE created_at < '2012-06-09'
